@@ -19,4 +19,21 @@ let's see where we are!
 
         git status
         
-7. Start a new branch
+7. Start a new branch. For this case, you might choose to use your name
+
+        git checkout -b mayhall
+        
+8. Commit your changes
+
+        git commit -am "finished answering the questions"
+
+9. Push your changes to github
+
+        git push
+        
+   > You will get an error that you have not yet told it how to push. The prompt will then give you a command to run to set this. Mine is:
+  
+        git push --set-upstream origin mayhall
+        
+        
+ 
